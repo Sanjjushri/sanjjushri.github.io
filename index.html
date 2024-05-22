@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sanjjushri Varshini's Portfolio</title>
+<meta name="keywords" content="Machine Learning, AI, Data Preprocessing, Model Monitoring, Sanjjushri Varshini, NLP, LLM, Custom AI Solution">
+<meta name="author" content="Sanjjushri Varshini R">
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-**************" crossorigin="anonymous" />
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+ 
+<style>
+  .about-section {
+    text-align: center;
+    padding: 50px 0;
+  }
+  .about-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  .about-section img {
+    width: 200px; /* Adjust the size as needed */
+    height: 200px;
+    border-radius: 50%; /* Makes the image round */
+    margin-bottom: 20px;
+  }
+  .about-section p {
+    color: #333;
+  }
+
+  /* Additional CSS for Projects Section */
+.projects-section h2 {
+  margin-bottom: 40px;
+  font-size: 2.5rem;
+}
+.card {
+  box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Adds a subtle shadow around the card */
+}
+.card-img-top {
+  max-height: 180px; /* Adjust this value to fit the image properly in the card */
+  object-fit: cover; /* This makes sure the image covers the area properly */
+}
+.card-body {
+  padding: 15px;
+}
+.card-title {
+  font-size: 1.25rem;
+}
+.card-text {
+  margin-bottom: 15px;
+}
+
+/* Additional CSS for Skills Section */
+
+
+/* Additional CSS for Contact Section */
+.contact-section {
+  padding: 50px 0;
+}
+.contact-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+}
+.contact-section p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+.social-icon {
+  width: 50px; /* Size of your icons */
+  margin-bottom: 10px;
+}
+/* Hover effect for icons */
+.social-icon:hover {
+  opacity: 0.7;
+}
+/* Style for links in the Contact section */
+.contact-section a {
+  color: #fff;
+  text-decoration: none; /* Removes underline from links */
+  display: inline-block; /* Allows for margin on the bottom */
+  margin-bottom: 10px;
+}
+.contact-section a:hover {
+  color: #ddd; /* Color when hovering over the link */
+}
+
+/* CSS for Sticky Navbar */
+.navbar {
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2); /* Adds a shadow for depth */
+}
+
+/* Ensure padding is added to body to avoid content being hidden behind the navbar */
+body { 
+  padding-top: 56px; /* Adjust this value based on the height of your navbar */
+}
+
+/* Smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Style for navigation bar links */
+.navbar-nav .nav-link {
+  color: white;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #f8f9fa; /* Slightly lighter white when hovering over links */
+}
+
+
+/* Media query for responsive navbar collapsing */
+@media (max-width: 992px) {
+  .navbar-collapse {
+    background-color: #343a40; /* Same as navbar color for seamless look */
+  }
+}
+
+
+
+/* Additional CSS for Research Section */
+#research {
+  background-color: #ffffff; /* White background for the research section */
+}
+
+#research h2 {
+  margin-bottom: 40px;
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+#research .card {
+  box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Adds a subtle shadow around the card */
+}
+
+#research .card-img-top {
+  max-height: 180px; /* Adjust this value to fit the image properly in the card */
+  object-fit: cover; /* This makes sure the image covers the area properly */
+}
+
+#research .card-body {
+  padding: 15px;
+}
+
+#research .card-title {
+  font-size: 1.25rem;
+}
+
+#research .card-text {
+  margin-bottom: 15px;
+}
+
+
+
+
+</style>
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Sanjjushri Varshini",
+    "jobTitle": "Machine Learning Engineer",
+    "description": "Dedicated Machine Learning Engineer with expertise in AI solutions, data preprocessing, and model monitoring.",
+    "url": "http://www.your-portfolio-site.com",
+    "sameAs": [
+      "https://linkedin.com/in/yourusername",
+      "https://twitter.com/yourusername",
+      "https://github.com/yourusername",
+      "https://medium.com/@yourusername",
+      "https://youtube.com/c/yourchannel"
+    ]
+  }
+  </script>
+  
+
+</head>
+<body>
+
+<section id='about' class="about-section">
+  <div class="container">
+    <h2>About</h2>
+    <img src="images/about/1.jpg" alt="About Me">
+    <p> Hello! My name is Sanjjushri Varshini R, and I am a Freelance Machine Learning Engineer passionate about creating innovative <strong>Custom AI Solutions</strong> across various domains.</p>
+    <p>I hold a B.Tech in Artificial Intelligence and Data Science, providing a strong foundation in AI's theoretical and practical aspects. My extensive experience spans developing and deploying ML models, data-driven applications, and intelligent systems tailored to meet diverse business needs.</p>
+    <p>I have published research papers in reputable AI journals, including work on Large Language Models (LLMs).</p>
+    <p>Whether it's developing custom chatbots, implementing predictive analytics systems, or building comprehensive data pipelines, I am committed to pushing the boundaries of what's possible with AI. My goal is to create solutions that solve complex problems, enhance user experiences, and drive innovation.</p>
+    <p>Let's collaborate to bring your AI projects to life and harness the power of technology to create impactful solutions.</p>
+  </div>
+</section>
+
+
+<!-- Projects Section -->
+<section id="projects" class="projects-section bg-light" id="projects">
+  <div class="container">
+    <h2 class="text-center">Projects</h2>
+    <div class="row">
+       <!-- Project 1 -->
+       <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="images/projects/1.png" class="card-img-top" alt="RAG Model - Private Data Chatbot">
+          <div class="card-body">
+            <h5 class="card-title">Private Data Chatbot - RAG</h5>
+            <p class="card-text">PDF Q&A with Llama2: A Streamlit App for Personalized Document Interaction Using Retrieval-Augmented Generation (RAG). Upload your personal documents and chat with them seamlessly!</p>
+            <a href="https://medium.com/@Sanjjushri/rag-pdf-q-a-using-llama-2-in-8-steps-021a7dbe26e1" class="btn btn-primary" target="_blank">Blog Post</a>
+            <a href="https://github.com/Sanjjushri/rag-pdf-qa-llama2" class="btn btn-secondary" target="_blank">Source Code</a>
+          </div>
+        </div>
+      </div>
+      <!-- Project 2 -->
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="images/projects/2.webp" class="card-img-top" alt="Time Series Forecasting for Air and Noise Pollution">
+          <div class="card-body">
+            <h5 class="card-title">Generating Synthetic Tabular Data with GANs</h5>
+            <p class="card-text">Tabular data generator, upload sample data and generate millions of rows for test case generation. The solution streamlines data generation process, making it efficient.</p>
+            <a href="https://medium.com/@Sanjjushri/synthetic-data-generation-for-tabular-data-168b8527e51b" class="btn btn-primary" target="_blank">Blog Post</a>
+            <a href="https://github.com/Sanjjushri/synthetic-data-generator" class="btn btn-secondary" target="_blank">Source Code</a>
+          </div>
+        </div>
+      </div>
+       <!-- Project 3 -->
+       <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="images/projects/3.webp" class="card-img-top" alt="Time Series Forecasting for Air and Noise Pollution">
+          <div class="card-body">
+            <h5 class="card-title">ML Model Monitoring with Evidently AI</h5>
+            <p class="card-text">Demonstrating the integration and usage of Evidently AI and MLflow for machine learning model monitoring. Gain actionable insights to enhance your ML workflows! </p>
+            <a href="https://medium.com/@Sanjjushri/monitoring-machine-learning-model-using-evidently-ai-8072ed476c2f" class="btn btn-primary" target="_blank">Blog Post</a>
+            <a href="https://github.com/Sanjjushri/evidently-ai-poc" class="btn btn-secondary" target="_blank">Source Code</a>
+          </div>
+        </div>
+      </div>
+      <!-- Project 4 -->
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="images/projects/6.jpeg" class="card-img-top" alt="Project 2">
+          <div class="card-body">
+            <h5 class="card-title">Estimating Pairs for Pair Trading with Cluster Analysis</h5>
+            <p class="card-text">Implemented cluster analysis techniques, including K-Means, Hierarchical & Affinity Propagation Clustering, on US & Indian companies.</p>
+            <a href="https://medium.com/featurepreneur/cluster-analysis-unsupervised-ml-for-pairs-trading-using-indian-stock-data-553857d17d31" class="btn btn-primary" target="_blank">Blog Post</a>
+            <a href="https://github.com/Sanjjushri/Estimating-Pairs-for-Pair-Trading" class="btn btn-secondary" target="_blank">Source Code</a>
+          </div>
+        </div>
+      </div>
+      <!-- Project 5 -->
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="images/projects/4.webp" class="card-img-top" alt="Time Series Forecasting for Air and Noise Pollution">
+          <div class="card-body">
+            <h5 class="card-title">Legal Document Summarizer - Bert & spaCy </h5>
+            <p class="card-text">A legal document summarizer employing BERT and SpaCy, meticulously benchmarked for optimal performance. Experience streamlined document analysis</p>
+            <!-- <a href="" class="btn btn-primary">Blog Post</a> -->
+            <a href="https://github.com/Sanjjushri/legal-document-assistant" class="btn btn-secondary" target="_blank">Source Code </a>
+          </div>
+        </div>
+      </div>
+      <!-- Project 6 -->
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="images/projects/5.webp" class="card-img-top" alt="Time Series Forecasting for Air and Noise Pollution">
+          <div class="card-body">
+            <h5 class="card-title">Forecasting Air and Noise Pollution Across Locations with PySpark</h5>
+            <p class="card-text">The past environmental data is analyzed using PySpark to forecast air and noise pollution levels with high accuracy, enabling proactive measures for environment.</p>
+            <!-- <a href="#" class="btn btn-primary">Blog Post</a> -->
+            <a href="https://github.com/Sanjjushri/Time-Series-Forecasting-PySpark" class="btn btn-secondary" target="_blank">Source Code</a>
+          </div>
+        </div>
+      </div>  
+    </div>   
+  </div>
+</section>
+
+
+
+
+
+<!-- Research Publications Section -->
+<section id="research" class="projects-section bg-white">
+  <div class="container">
+    <h2 class="text-center">Research</h2>
+    <div class="row">
+      <!-- Research Publication 1 -->
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="images/publications/choose-right-candiate.jpeg" class="card-img-top" alt="Turtle Score -- Similarity Based Developer Analyzer">
+          <div class="card-body">
+            <h5 class="card-title">Turtle Score -- Similarity Based Developer Analyzer</h5>
+            <p class="card-text">This research aims to comprehend, analyze and automatically produce convincing outcomes to find a candidate who perfectly fits right in the company.</p>
+            <a href="https://arxiv.org/abs/2205.04876v1" class="btn btn-primary" target="_blank">View Publication</a>
+          </div>
+        </div>
+      </div>
+      <!-- Research Publication 2 -->
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="images/publications/automated-data-processing-solutions.jpeg" class="card-img-top" alt="Instinctive Data Analysis in Machine Learning and Summary Exhibitor">
+          <div class="card-body">
+            <h5 class="card-title">Instinctive Data Analysis in Machine Learning and Summary Exhibitor</h5>
+            <p class="card-text">The main objective of the paper is to perform the automated data analysis tool for Machine Learning in an easier way.</p>
+            <a href="https://link.springer.com/chapter/10.1007/978-3-031-09176-6_19" class="btn btn-primary" target="_blank">View Publication</a>
+          </div>
+        </div>
+      </div>
+       <!-- Research Publication 3 -->
+       <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="images/publications/seo.jpeg" class="card-img-top" alt="Search Engine and Recommendation System for the Music Industry built with JinaAI">
+          <div class="card-body">
+            <h5 class="card-title">Search Engine and Recommendation System for the Music Industry built with JinaAI</h5>
+            <p class="card-text">Utilizing Jina AI to create a music search engine that matches song lyrics with single queries, improving accuracy.</p>
+            <a href="https://arxiv.org/abs/2308.03842" class="btn btn-primary" target="_blank">View Publication</a>
+          </div>
+        </div>
+      </div>
+      <!-- Research Publication 4 -->
+       <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="images/publications/maternal-heath.webp" class="card-img-top" alt="Estimating Countries with Similar Maternal Mortality Rate using Cluster Analysis and Pairing Countries with Identical MMR">
+          <div class="card-body">
+            <h5 class="card-title">Estimating Countries with Similar Maternal Mortality Rate using Cluster Analysis and Pairing Countries with Identical MMR</h5>
+            <p class="card-text">Using cluster analysis identification of countries with similar maternal mortality rates and pairs them accordingly, aiming to understand factors influencing maternal health outcomes.</p>
+            <a href="https://arxiv.org/abs/2312.04275" class="btn btn-primary" target="_blank">View Publication</a>
+          </div>
+        </div>
+      </div>
+       <!-- Research Publication 5 -->
+       <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="images/publications/LLM-Evaluation.png" class="card-img-top" alt="Comparative Study and Framework for Automated Summariser Evaluation: LangChain and Hybrid Algorithms">
+          <div class="card-body">
+            <h5 class="card-title">Comparative Study and Framework for Automated Summariser Evaluation: LangChain and Hybrid Algorithms</h5>
+            <p class="card-text">A comparative study evaluates automated summarizer performance, utilizing LLMs and LangChain for enhanced learning analytics through PDF comprehension analysis.</p>
+            <a href="https://arxiv.org/abs/2310.02759" class="btn btn-primary" target="_blank">View Publication</a>
+          </div>
+        </div>
+      </div>
+       
+       <!-- Research Publication 6 -->
+       <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="images/publications/custom-llm.jpeg" class="card-img-top" alt="Automating REST API Postman Test Cases Using LLM">
+          <div class="card-body">
+            <h5 class="card-title">Automating REST API Postman Test Cases Using LLM</h5>
+            <p class="card-text">This research introduces an innovative method leveraging Large Language Models (LLMs) to automate the generation of Postman test cases for REST APIs, streamlining testing processes and ensuring comprehensive coverage of API properties.</p>
+            <a href="https://arxiv.org/abs/2404.10678" class="btn btn-primary" target="_blank">View Publication</a>
+          </div>
+        </div>
+      </div>
+    
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+<!-- Skills Section -->
+<section id="skills" class="skills-section">
+  <div class="container">
+    <h2 class="text-center">Skills</h2>
+    <div class="row">
+      <!-- Technical Skills -->
+      <div class="col-md-6 mb-4">
+        <h3>Technical Skills</h3>
+        <ul>
+          <li>Programming Languages: Python, Julia</li>
+          <li>Libraries and Frameworks: Scikit-learn, Hugging Face, LangChain, Spacy, TensorFlow, PyTorch, Keras </li>
+          <li>Data Visualization: Plotly, Tableau, Google Data Studio, Highcharts, Matplotlib, Seaborn, </li>
+          <li>Custom LLM and Chatbots: Custom LLM development, custom chatbot creation</li>
+          <li>Database Management: SQL, NoSQL (Cassandra)</li>
+          <li>ML Model Monitoring: EvidenlyAI, MlFlow</li>
+          <li>Big Data Technologies: PySpark</li>
+          <li>Cloud Platforms: AWS, GCP</li>
+          <li>Deployment Tools: Docker, FastAPI, Streamlit, Chainlit, Flask, </li>
+        </ul>
+      </div>
+      <!-- Methodologies and Processes -->
+      <div class="col-md-6 mb-4">
+        <h3>Methodologies and Processes</h3>
+        <ul>
+          <li>Data Preprocessing: Data cleaning, Normalization, Feature Engineering</li>
+          <li>Model Development: Model Selection, Hyperparameter Tuning, Cross-validation</li>
+          <li>Machine Learning Algorithms: Supervised, unsupervised learning, ensemble methods</li>
+          <li>Deep Learning: CNNs, RNNs, GANs</li>
+          <li>NLP: Text preprocessing, tokenization, NER, sentiment analysis</li>
+          <li>Time Series Analysis: Trend analysis, ARIMA, Prophet</li>
+          <li>Data Visualization and Reporting: Dashboards, Interactive Visualizations</li>
+          <li>Project Management: Agile methodologies, Scrum</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<!-- Contact Me Section -->
+<section id="contact" class="contact-section text-center text-white bg-dark">
+  <div class="container mx-auto">
+    <h2>Contact Me</h2>
+    <div class="row justify-content-center"> <!-- Center the row -->
+      <div class="col-lg-6">
+        <p><i class="fas fa-envelope"></i> <a href="mailto:sanjjushri@gmail.com">sanjjushri@gmail.com</a></p>
+      </div>
+    </div>
+    <div class="row justify-content-center"> <!-- Center the social icons -->
+      <div class="col-lg-2 col-md-4 mb-4">
+        <a href="https://www.linkedin.com/in/sanjjushri/" target="_blank">
+          <img src="icons/linkedin.png" alt="LinkedIn" class="social-icon">
+          LinkedIn
+        </a>
+      </div>
+      <!-- <div class="col-lg-2 col-md-4 mb-4">
+        <a href="https://x.com/SanjjushriV" target="_blank">
+          <img src="icons/twitter.png" alt="Twitter" class="social-icon">
+          Twitter
+        </a>
+      </div> -->
+      <div class="col-lg-2 col-md-4 mb-4">
+        <a href="https://github.com/Sanjjushri" target="_blank">
+          <img src="icons/github.png" alt="GitHub" class="social-icon">
+          GitHub
+        </a>
+      </div>
+      <div class="col-lg-2 col-md-4 mb-4">
+        <a href="https://medium.com/@Sanjjushri" target="_blank">
+          <img src="icons/medium.png" alt="Medium" class="social-icon">
+          Medium
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Sticky Navigation Bar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="#home">Portfolio</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#projects">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#research">Research</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#skills">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<!-- Bootstrap JS and dependencies (jQuery and Popper) -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.9.5/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
