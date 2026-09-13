@@ -1,6 +1,6 @@
-AUTHOR = 'Raja CSP Raman'
-SITENAME = 'RajaCSP'
-SITETITLE = 'RajaCSP'
+AUTHOR = 'Sanjjushri'
+SITENAME = 'Sanjjushri'
+SITETITLE = 'Sanjjushri'
 SITEURL = ""
 PATH = "content"
 TIMEZONE = 'America/Moncton'
@@ -12,7 +12,7 @@ DISABLE_URL_HASH = True
 
 # Copyright
 COPYRIGHT_YEAR = 2026
-COPYRIGHT_NAME = 'Raja CSP Raman'
+COPYRIGHT_NAME = 'Sanjjushri'
 
 # Dark mode support
 THEME_COLOR_AUTO_DETECT_BROWSER_PREFERENCE = True
